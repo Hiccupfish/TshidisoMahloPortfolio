@@ -19,5 +19,50 @@
 }
 
 .contact_details{
-    
+
 }
+.about-section {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(230, 230, 240); /* Moved before border-color for visibility */
+    color:black /* Your desired text color */;
+    border: 5px solid #6e9b5d; /* Combined border-width, border-style, and border-color */
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+.social-icons{
+    display: flex;
+    color: #426436;
+    justify-content: center;
+    gap:10px;
+    margin-right: 5px;
+}
+.social-icons a {
+    margin-right: 5px; /* Optional: Can be used to add additional spacing */
+    color: #6e9b5d;
+  }
+  
+  .certifications{
+    background-color:rgb(33, 43, 24) ;
+    color: aliceblue;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .key-skils{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .copyright{
+    background-color: #6e9b5d;
+    color: rgb(244, 247, 247);
+  }
+
+  .about-section-container{
+    padding: 2%;
+  }
