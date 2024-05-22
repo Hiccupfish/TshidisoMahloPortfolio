@@ -8,6 +8,23 @@
 
 }
 
+.card-container{
+    
+}
+.card-content{
+    display: flex; /* Allow image and content to sit side-by-side */
+    aspect-ratio: 16 / 9;
+}
+
+
+
+.card-body {
+    
+  }
+.card{
+    width:80%
+    :5px;
+}
 .button-colour{
     background-color: #6e9b5d;
 }
@@ -65,4 +82,11 @@
 
   .about-section-container{
     padding: 2%;
+  }
+
+  .card-body img{
+    max-height: 100px; /* Adjust this value as needed */
+    max-width: ;
+    object-fit: cover; /* Ensures the image covers the given area */
+    width: 100%;
   }
