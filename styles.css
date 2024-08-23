@@ -1,5 +1,11 @@
 /* Custom styles */
 
+/* Light mode styles (default) */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
 /* Custom header background color */
 .custom-red-header {
   background-color: #0f104a; /* Adjusted to a deep blue color */
@@ -66,16 +72,44 @@
   .center-text h1 {
     text-align: center;
   }
+
   body {
     background-color: #1f2937; /* Match the background color of the About Me section */
     color: #fff; /* Default text color */
   }
-  
+
   /* Style for the footer */
   footer {
     background-color: #cbd5e0; /* Different background color for the footer */
     color: #1a202c; /* Text color for the footer */
   }
-  
+}
 
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #1a202c; /* Dark background */
+  color: #cbd5e0; /* Light text color */
+}
+
+.custom-red-header.dark-mode {
+  background-color: #0f104a; /* Dark mode header color */
+}
+
+.about-section.dark-mode {
+  background-color: #2d3748; /* Dark mode section color */
+  color: #cbd5e0; /* Light text */
+}
+
+.same-bg-color.dark-mode {
+  background-color: #2d3748; /* Dark mode background */
+  color: #e2e8f0; /* Light text */
+}
+
+.project-container.dark-mode {
+  background-color: #2d3748; /* Dark mode project container */
+}
+
+footer.dark-mode {
+  background-color: #1a202c; /* Dark mode footer background */
+  color: #cbd5e0; /* Light footer text */
 }
